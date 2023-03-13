@@ -1,0 +1,54 @@
+@import './base.css';
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+} */
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+/* no se para que es lo de abajo pero si  */
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+} */
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+.agregar-btn {
+  background-color: #0c41e1; /* Cambia el color de fondo*/
+  color: white; /* Cambia el color del texto a blanco */
+  border: none; /* Elimina el borde */
+  padding: 15px 20px; /* Ajusta el padding */
+  margin: 4px 2px;
+  border-radius: 5px; /* Añade bordes redondeados */
+  
+}
+
+.mr-3 {
+  margin-right: 10px !important;
+}
+
+
+
+
+
